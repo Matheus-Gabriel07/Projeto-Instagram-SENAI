@@ -1,0 +1,24 @@
+main{
+    border: 2px solid #efefef;
+    background-color: #efefef;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.289);
+    border-radius: 40px;
+    text-align: center;
+    left: 30%;
+    right: 30%;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
