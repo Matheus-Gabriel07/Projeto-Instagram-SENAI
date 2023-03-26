@@ -1,14 +1,110 @@
 main img{
-    border: 45px;
-    border-radius: 50%;
-	width: 20%;
-    box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.03);
+  border: 45px;
+  border-radius: 50%;
+  width: 15%;
+  box-shadow: 5px 2px 2px rgba(255, 255, 255, 0.516);
+}
+
+.head{
+    padding: 20px;
+    margin-top: 2px;
+    color: #fff;
+    background-image: url(../Imagens/fundo_1.jpg);
+    background-position: 100%;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.head>img{
+  position:relative;
+  left: 180px;
+  right: auto;
+}
+
+.perfil-nome{
+    font-family:Verdana;
+    font-size: 20px;
+    line-height: 0.8px;
+    position: absolute;
+    bottom: 400px;
+    left: 440px;
+    right: auto;
+}
+
+.perfil-botao{
+  position: absolute;
+  bottom: 330px;
+  left: 430px;
+  right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.perfil-botao>button{
+  background: #fff;
+  color: #000000;
+  border-color: transparent;
+  width: 80px;
+  height: 30px;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 10px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil-botao>button:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 20px 0 #e6e6e6, 0 4px 40px 0 #fdfdfd;
+  transition: 2s;
+}
+
+.perfil-botao>button.mensagem{
+  position: relative;
+  bottom: 0;
+  left: 10px;
+  right: auto;
+}
+
+.seguidores{
+  position: absolute;
+  bottom: 350px;
+  left: auto;
+  right: 240px;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 2px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10;
+}
+  
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-size: 0px;
+    text-align: center;
   }
 
-.math-mainimg{
-    border: 45px;
-    border-radius: 50%;
-	width: 20%;
-    box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.03);
+  .grid-item:hover{
+    cursor: pointer;
+  }
+  
+  h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
 
+  a{
+    text-decoration: underline;
   }
