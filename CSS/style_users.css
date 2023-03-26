@@ -56,6 +56,7 @@ main img{
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 1s;
 }
 
 .perfil-botao>button:hover{
@@ -83,6 +84,26 @@ main img{
   line-height: 2px;
 }
 
+.menu{
+  display: inline-flexbox;
+  width: 400px;
+  padding: 2rem;
+  align-items: center;
+  margin-left: 465px;
+  margin-right: auto;
+}
+
+.menu>a{
+  padding-left: 15px;
+  transition: 1s;
+}
+
+.menu>a:hover{
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.73));
+  transition: 1s;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -94,10 +115,7 @@ main img{
     padding: 10px;
     font-size: 0px;
     text-align: center;
-  }
-
-  .grid-item:hover{
-    cursor: pointer;
+    transition: 0.3s;
   }
   
   h3{

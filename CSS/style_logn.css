@@ -42,7 +42,9 @@ a{
     margin-top: 10px;
     margin-left: 15px;
     font-family: Arial;
-    color: #000;
+    background: linear-gradient(90deg, rgba(0,48,255,1) 0%, rgba(92,9,121,1) 50%, rgba(255,196,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 50px;
     font-weight: 300px;
     font-variant-caps: all-petite-caps;
