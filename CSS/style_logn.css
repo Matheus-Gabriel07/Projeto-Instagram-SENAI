@@ -6,6 +6,17 @@ body{
     transform: translate(-50%, -50%);
     background-color: hwb(0 100% 0%);
 }
+
+.fundo{
+  position: absolute;
+  width: 1437.77px;
+  height: 1023.25px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(0, 0, 0, 0.08);
+}
+
 h1{
     font-size: 50px;
     font-family: Lucida;    
