@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+body{
+    background: #D94848;
+}
+
+.erro_403{
+    background: #BF3F57;
+}
+
+.erro_404{
+    background: #CE3200;
+}
+
+.erro{
+    position: relative;
+}
+
+.erro_info h1{
+    position: absolute;
+    width: 506px;
+    height: 177px;
+    top:0;
+    left:51%;
+    right: auto;
+    transform:translateX(-51%);
+  
+    
+    font-family: 'Francois One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 177px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+
+.erro_info p{
+    position: absolute;
+    width: auto;
+    height: 142px;
+    max-height: max-content;
+    top: 150px;
+    left:51%;
+    right: auto;
+    transform:translateX(-51%); 
+    
+    font-family: 'Francois One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.erro img{
+    position: absolute;
+    width: 284px;
+    height: 284px;
+    top: 320px;
+    left:51%;
+    right: auto;
+    transform:translateX(-51%); 
+}
+
+.erro_403 img{
+    width: 400px;
+    height: 280px;
+}
+
+.erro button{
+    position: absolute;
+    width: 101px;
+    height: 45px;
+    top: 650px;
+    left:51%;
+    right: auto;
+    transform:translateX(-51%); 
+
+    font-family: 'Francois One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.erro button.tente{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    top: 600px;
+    left:52%;
+    right: auto;
+    transform:translateX(-50%); 
+
+    font-family: 'Francois One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.erro a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
