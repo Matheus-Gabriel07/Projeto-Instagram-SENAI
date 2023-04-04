@@ -19,6 +19,7 @@ label.logo{
     padding: 0 40px;
     font-weight: bold;
     font-family: sans-serif;
+    text-transform: uppercase;
 }
 
 nav ul{
