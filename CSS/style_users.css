@@ -156,9 +156,8 @@ a{
     position: relative;
     width: 46px;
     height: 46px;
-    left:43%;
-    right: auto;
-    transform:translateX(-43%);
+    left:35%;
+    transform:translateX(-35%);
 
     display: inline-block;
     align-items: center;

@@ -1,0 +1,30 @@
+figure img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+}
+
+figure p{
+    font-family: 'Franklin Gothic Medium';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+figure h6{
+    font-family: 'Franklin Gothic Medium';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 100px;
+}
