@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-  
 }
   
 .back-slider{
@@ -29,8 +28,9 @@
     position: relative;
     width: 500%;
     margin: 0;
+    filter: blur(3px);
   
-    animation: slide-sli 100s infinite;
+    animation: slide-sli 50s infinite;
 }
 
 /*Animation*/
