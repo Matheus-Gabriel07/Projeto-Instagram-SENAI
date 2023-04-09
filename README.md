@@ -31,7 +31,7 @@ Acompanhe as atualizações no "releases"
 - Novas funções: Login, Sign, Reels e Guias;
 - Organização dos arquivos
 
-### Screenahots
+### Screeshots
 
 ![Inst_guia](https://user-images.githubusercontent.com/125685533/230795762-2fc70fe1-7db0-4535-8671-528a0a5f467d.PNG)
 ![Inst_index](https://user-images.githubusercontent.com/125685533/230795763-714dbb84-3076-4fe4-a3ca-f5d43c5a1d9f.PNG)
