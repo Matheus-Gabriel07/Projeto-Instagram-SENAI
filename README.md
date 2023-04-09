@@ -3,9 +3,6 @@
 
 Projeto Instagram feito durante as aulas de Html + CSS.
 
-
-
-
 ## Autores
 
 - [@Matheus-Gabriel07](https://www.github.com/matheus-gabriel07)
@@ -33,3 +30,11 @@ Acompanhe as atualizações no "releases"
 - Telas de "erros"
 - Novas funções: Login, Sign, Reels e Guias;
 - Organização dos arquivos
+
+### Screenahots
+
+![Inst_guia](https://user-images.githubusercontent.com/125685533/230795762-2fc70fe1-7db0-4535-8671-528a0a5f467d.PNG)
+![Inst_index](https://user-images.githubusercontent.com/125685533/230795763-714dbb84-3076-4fe4-a3ca-f5d43c5a1d9f.PNG)
+![Inst_log](https://user-images.githubusercontent.com/125685533/230795765-479d8886-4e40-4df8-b15c-ecefd5d6777d.PNG)
+![Inst_user](https://user-images.githubusercontent.com/125685533/230795768-91a3d741-aa1e-42a2-8971-adea844b2d34.PNG)
+![Inst_404](https://user-images.githubusercontent.com/125685533/230795774-0eb02474-9a45-4f5c-9f40-b1cc59f73198.PNG)
