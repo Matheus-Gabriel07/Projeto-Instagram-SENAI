@@ -15,11 +15,13 @@ nav{
 label.logo{
     color: #020202;
     font-size: 25px;
+    letter-spacing: 0.5;
     line-height: 60px;
     padding: 0 40px;
     font-weight: bold;
     font-family: sans-serif;
     text-transform: uppercase;
+    background: transparent;
 }
 
 nav ul{

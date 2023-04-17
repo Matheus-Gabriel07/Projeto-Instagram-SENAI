@@ -101,6 +101,7 @@ button{
     width: 100px;
     height: 30px;
     
+    color: #fff;
     border: 0;
     border-color: transparent;
     background: #D94848;
@@ -122,6 +123,7 @@ button:hover{
     box-shadow: 5px 10px 10px rgba(255, 80, 80, 0.668);
     transition: 3s;
 }
+
 a{
     color: #fff;
     text-decoration: none;

@@ -17,13 +17,21 @@ body{
     background: #CE3200;
 }
 
+.embreve{
+    background: #C45B02;
+}
+
+.manu{
+    background: #3086A3;
+}
+
 .erro{
     position: relative;
 }
 
 .erro_info h1{
     position: absolute;
-    width: 506px;
+    width: max-content;
     height: 177px;
     top:0;
     left:51%;
@@ -48,7 +56,7 @@ body{
     width: auto;
     height: 142px;
     max-height: max-content;
-    top: 150px;
+    top: 160px;
     left:51%;
     right: auto;
     transform:translateX(-51%); 
