@@ -30,6 +30,7 @@ Acompanhe as atualizações no "releases"
 - Telas de "erros"
 - Novas funções: Login, Sign, Reels e Guias;
 - Organização dos arquivos
+- **Preparação para nova versão**
 
 ### Screeshots
 
