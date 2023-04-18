@@ -22,7 +22,7 @@ Projeto Instagram feito durante as aulas de Html + CSS.
 
 Acompanhe as atualizações no "releases"
 
-#### V4.0 - Users
+#### V4.2.1 - Users
 "Socializando uns com os outros  ^^ "
 
 - Nova UI dos user;
