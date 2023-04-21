@@ -51,7 +51,7 @@ aside summary>a{
   display: flex;
   justify-content: start;
   margin-left:280px;
-  margin-top: -410px;
+  margin-top: -520px;
   width: 0;
   height: 80vh;
   border: 1.5px solid #202020;
@@ -104,4 +104,8 @@ aside button:hover{
 
 aside button a:hover{
   background: transparent;
+}
+
+.notif_had{
+  margin-left: 40px;
 }

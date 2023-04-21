@@ -22,15 +22,20 @@ Projeto Instagram feito durante as aulas de Html + CSS.
 
 Acompanhe as atualizações no "releases"
 
-#### V4.2.1 - Users
-"Socializando uns com os outros  ^^ "
+#### V5.0 - Fronteiras
+"Em novas fronteiras ^^ "
 
-- Nova UI dos user;
-- Nova tela 'index'
-- Telas de "erros"
-- Novas funções: Login, Sign, Reels e Guias;
-- Organização dos arquivos
-- **Preparação para nova versão**
+- Nova UI da tela inicial:
+    - Adição de sidebar;
+    - Novo modelo de post;
+- Nova UI dos 'settings'
+- Adição das telas:
+    - Configurações:
+    - Privacidade;
+    - Segurança;
+    - Notificações
+    - Em Manutenção;
+    - Em Breve;
 
 ### Screeshots
 
