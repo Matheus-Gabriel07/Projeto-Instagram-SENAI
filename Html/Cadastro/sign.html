@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Instagram</title>
-        <link rel="shortcut icon" href="../../Imagens/Icons/instagram.png" type="image/x-icon">
-        <link rel="stylesheet" href="../../CSS/cadastro.css">
-    </head>
-    <body>
-        <section class="frame">
-            <div class="container">
-                <aside>
-                    <h2>Cadastrar</h2>
-                    <a href="./login.html">Login</a>
-                    <form action="../Base/home.html" a>
-                        <ul>
-                            <p>Username:</p>
-                            <li><input type="text" name="user" id="user" required></li>
-                            <p>Email:</p>
-                            <li><input type="email" name="email" id="email" required></li>
-                            <p>Senha:</p>
-                            <li><input type="password" name="password" id="password" required></li>
-                        </ul>
-                        <div class="checkbox">
-                            <label for="opc">
-                                <input type="checkbox" id="check">Desejo receber e-mails promocionais
-                            </label>
-                            <label for="opc">
-                                <input type="checkbox" id="check">Desejo sincronizar meus contatos
-                            </label>
-                        </div>
-                        <input class="entrar" type="submit" name="entrar" id="entrar" value="Cadastrar">
-                    </form>
-                </aside>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link
+      rel="shortcut icon"
+      href="../../Imagens/Icons/instagram.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../CSS/cadastro.css" />
+    <link rel="stylesheet" href="../../CSS/root.css" />
+  </head>
+  <body>
+    <section class="frame">
+      <div class="container">
+        <aside>
+          <h2>Cadastrar</h2>
+          <a href="./login.html">Login</a>
+          <form action="../Base/home.html" a>
+            <ul>
+              <p>Username:</p>
+              <li><input type="text" name="user" id="user" required /></li>
+              <p>Email:</p>
+              <li><input type="email" name="email" id="email" required /></li>
+              <p>Senha:</p>
+              <li>
+                <input type="password" name="password" id="password" required />
+              </li>
+            </ul>
+            <div class="checkbox">
+              <div class="child">
+                <input type="checkbox" id="check" />
+                <label for="opc">Desejo receber e-mails promocionais</label>
+              </div>
+              <div class="child">
+                <input type="checkbox" id="check" />
+                <label for="opc"> Desejo sincronizar meus contatos </label>
+                </div>
             </div>
-        </section>
-    </body>
+            <input
+              class="entrar"
+              type="submit"
+              name="entrar"
+              id="entrar"
+              value="Cadastrar"
+            />
+          </form>
+        </aside>
+      </div>
+    </section>
+  </body>
 </html>
