@@ -1,9 +1,3 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .configura{
   position: relative;
   display: flex;
@@ -47,11 +41,10 @@ aside summary>a{
 }
 
 .lineLado{
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: start;
-  margin-left:280px;
-  margin-top: -520px;
+  margin-left:calc(100%/12*3.5);
   width: 0;
   height: 80vh;
   border: 1.5px solid #202020;
