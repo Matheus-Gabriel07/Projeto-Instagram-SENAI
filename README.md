@@ -21,6 +21,8 @@ Projeto Instagram feito durante as aulas de Html + CSS.
 ## Versões
 
 Acompanhe as atualizações no "releases"
+<br>
+Nova versão em breve
 
 #### V5.0 - Fronteiras
 "Em novas fronteiras ^^ "
