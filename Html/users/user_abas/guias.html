@@ -1,110 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@gus.gus</title>
-    <link
-      rel="shortcut icon"
-      href="../../../Imagens/Icons/instagram.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="/CSS/Root/root.css">
-    <link rel="stylesheet" href="/CSS/Root/navbar.css">
-    <link rel="stylesheet" href="/CSS/User/style_users.css">
-    <link rel="stylesheet" href="/CSS/User/reels&guias.css">
-  </head>
-  <body>
-    <nav>
-      <label class="logo">Instagram</label>
-      <ul>
-        <li>
-          <a href="../../Base/home.html"
-            ><img src="../../../Imagens/Icons/casa.png" alt="home" width="15px"
-          /></a>
-        </li>
-        <li>
-          <a href="../../Page_erro/400.html"
-            ><img
-              src="../../../Imagens/Icons/adicionar.png"
-              alt="criar"
-              width="15px"
-          /></a>
-        </li>
-        <li>
-          <a href="../../Page_erro/400.html"
-            ><img
-              src="../../../Imagens/Icons/Curtida.png"
-              alt="curtir"
-              width="15px"
-          /></a>
-        </li>
-        <li>
-          <a href="../user.html"
-            ><img
-              src="../../../Imagens/Icons/do-utilizador.png"
-              alt="user"
-              width="15px"
-          /></a>
-        </li>
-        <li>
-          <a href="../../Confg_abas/Configuração.html"
-            ><img
-              src="../../../Imagens/Icons/definicoes.png"
-              alt="settings"
-              width="15px"
-          /></a>
-        </li>
-      </ul>
-    </nav>
-    <section>
-      <div class="box_user">
-        <img src="../../../Imagens/Posts/Gustavo.jpg" alt="" />
-        <div class="box_info">
-          <h3>Gustavo</h3>
-          <h4>gus.gus</h4>
-          <p>Amante de tecnologia</p>
-          <div class="box_info_btn">
-            <button><a href="#">Seguir</a></button>
-            <button><a href="#">Mensagem</a></button>
-            <a href="#"
-              ><img src="../../../Imagens/Icons/editar.png" alt="editar"
-            /></a>
-          </div>
-        </div>
-        <div class="box_info-lado">
-          <h5>Seguidores</h5>
-          <p>XXX</p>
-          <hr />
-          <h5>Seguindo</h5>
-          <p>XXX</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@gus.gus</title>
+  <link rel="shortcut icon" href="../../../Imagens/Icons/instagram.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/CSS/Root/root.css">
+  <link rel="stylesheet" href="/CSS/Root/navbar.css">
+  <link rel="stylesheet" href="/CSS/User/style_users.css">
+  <link rel="stylesheet" href="/CSS/User/reels&guias.css">
+</head>
+
+<body>
+  <header>
+    <label id="logo" class="logo" onclick="redirect">Instagram</label>
+    <div class="containner_nav">
+      <a href="../Base/home.html"><i class="fi fi-rr-home"></i></a>
+      <a href="../Page_erro/coming_soon.html"><i class="fi fi-rr-heart"></i></a>
+      <a href="../Page_erro/coming_soon.html"><i class="fi fi-rr-plus"></i></a>
+      <a href="../users/user.html"><i class="fi fi-rr-user"></i></a>
+      <a href="../Confg_abas/Configuração.html"><i class="fi fi-rr-settings"></i></a>
+      <div class="animation start-home"></div>
+    </div>
+  </header>
+
+  <section>
+    <div class="box_user">
+      <img src="/Imagens/Posts/Gustavo.jpg" alt="" />
+      <div class="box_info">
+        <h3 id="nomeUsuario">Gustavo</h3>
+        <h4>gus.gus</h4>
+        <p>
+          Amante de tecnologia, gatos são meus amores
+        </p>
+        <div class="box_info_btn">
+          <button id="botaoSeguir" onclick="alterarTexto()">Seguir</button>
+          <button id="direct">Mensagem</button>
+          <a href="user_abas/settingsUser.html"><i class="fi fi-rr-pencil"></i></a>
         </div>
       </div>
-    </section>
-    <main class="videos">
-      <div class="selection">
-        <a href="../user.html"
-          ><img src="../../../Imagens/Icons/foto.png" alt="Foto"
-        /></a>
-        <a href="../user_abas/videos.html"
-          ><img src="../../../Imagens/Icons/video.png" alt="Videos"
-        /></a>
-        <a href="../user_abas/guias.html"
-          ><img src="../../../Imagens/Icons/documento.png" alt="Doc"
-        /></a>
-        <a href="#"
-          ><img src="../../../Imagens/Icons/salvar.png" alt="Salvos"
-        /></a>
+      <div class="box_info-lado">
+        <h5>Seguidores</h5>
+        <p id="contador">550</p>
+        <hr />
+        <h5>Seguindo</h5>
+        <p>XXX</p>
       </div>
-      <figure>
-        <img
-          src="../../../Imagens/Reels & Guias/não_encontrado.png"
-          alt="não encontardo"
-        />
-        <p>Não existe contúdo postado</p>
-        <h6>Figure by Surfsup.Vector</h6>
-      </figure>
-    </main>
-  </body>
+    </div>
+  </section>
+
+  <div class="selection">
+    <a href="/Html/users/user.html"><i class="fi fi-rr-picture"></i></a>
+    <a href="/Html/users/user_abas/videos.html"><i class="fi fi-rr-play"></i></a>
+    <a href="/Html/users/user_abas/guias.html"><i class="fi fi-rr-document"></i></a>
+    <a href="#"><i class="fi fi-rr-bookmark"></i></a>
+  </div>
+
+  <main class="videos">
+    <figure>
+      <img src="../../../Imagens/Reels & Guias/não_encontrado.png" alt="não encontardo" />
+      <p>Não existe contúdo postado</p>
+      <h6>Figure by Surfsup.Vector</h6>
+    </figure>
+  </main>
+
+  <script src="/JS/functions.js"></script>
+  <script src="/JS/redirect.js"></script>
+</body>
 </html>

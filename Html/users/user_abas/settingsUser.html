@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@gus.gus - Editar perfil</title>
+  <link rel="shortcut icon" href="/Imagens/Icons/instagram.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/CSS/Root/root.css" />
+  <link rel="stylesheet" href="/CSS/Root/navbar.css" />
+  <link rel="stylesheet" href="/CSS/User/style_userSettings.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" />
+</head>
+
+<body>
+  <header>
+    <label id="logo" class="logo" onclick="redirect">Instagram</label>
+    <div class="containner_nav">
+      <a href="/Html/Base/home.html">
+        <i class="fi fi-rr-home"></i>
+      </a>
+      <a href="/Html/Page_erro/404.html">
+        <i class="fi fi-rr-heart"></i>
+      </a>
+      <a href="/Html/Page_erro/coming_soon.html">
+        <i class="fi fi-rr-plus"></i>
+      </a>
+      <a href="/Html/users/user.html">
+        <i class="fi fi-rr-user"></i>
+      </a>
+      <a href="/Html/Confg_abas/Configuração.html">
+        <i class="fi fi-rr-settings"></i>
+      </a>
+      <div class="animation start-home"></div>
+    </div>
+  </header>
+
+  <div class="containner-settings">
+
+    <nav>
+      <h1 class="namePage">Editar perfil</h1>
+    </nav>
+
+    <hr id="di-divsor-na">
+
+    <main>
+      <section class="containner-info-person">
+        <article>
+          <form id="saveIfomations" method="get">
+            <label id="nameUser">Nome de usuário</label>
+            <input type="text" class="in-for" id="nameUser">
+
+            <label id="bioUser">Biografia</label>
+            <input type="text" class="in-for" id="bioUser">
+
+            <label id="linksUser">Links</label>
+            <input type="text" class="in-for" id="linksUser">
+
+            <label id="emailUser">Email</label>
+            <input type="email" class="in-for" id="emailUser">
+
+            <label id="SenhaUser">Senha</label>
+            <input type="password" class="in-for"id="senhaUser">
+            <i class="far fa-eye" id="togglePassword"></i>
+
+            <input type="submit" id="bu-buttons" class="bu bu-re-sa" value="Salvar"></input>
+          </form>
+        </article>
+      </section>
+
+
+      <section class="containner-info-photo">
+        <article>
+          <img id="previewImage" src="/Imagens/Posts/Gustavo.jpg" alt="Imagem do Usuário">
+          <label for="fileInput" class="la la-pr-bu">Enviar arquivo</label>
+          <input type="file" id="fileInput">
+          <button onclick="uploadImage()" class="bu bu-ne-ph">Alterar Imagem</button>
+        </article>
+        <button id="voltar" class="bu bu-re-vo">Voltar</button>
+      </section>
+    </main>
+  </div>
+  <script src="/JS/redirect.js"></script>
+  <script src="/JS/imageUser.js"></script>
+  <script src="/JS/password.js"></script>
+</body>
+
+</html>
