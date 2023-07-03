@@ -1,18 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style-type: none;
-    box-sizing: border-box;
-  }
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
-nav{
+header {
     height: 60px;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
-label.logo{
+label.logo {
     color: #020202;
     font-size: 25px;
     letter-spacing: 0.5;
@@ -22,26 +16,62 @@ label.logo{
     font-family: sans-serif;
     text-transform: uppercase;
     background: transparent;
+
+    animation: fadeIn .5s ease;
 }
 
-nav ul{
+.containner_nav {
+    position: relative;
+    margin: 10px 15px;
     float: right;
-    margin-right: 20px;
+
+    width: max-content;
+    height: 25px;
 }
 
-nav ul li{
+.containner_nav .fi-rr-heart,
+.fi-rr-plus,
+.fi-rr-user,
+.fi-rr-settings,
+.fi-rr-home {
+    font-size: 18px;
+    color: #020202;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
     display: inline-block;
-    align-items: center;
-    line-height: 60px;
+    text-align: center;
+}
+
+.fi-rr-heart,
+.fi-rr-plus,
+.fi-rr-user,
+.fi-rr-settings,
+.fi-rr-home {
     margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    transition: .3s ease;
+
+    animation: fadeIn .5s ease;
 }
 
-nav ul li a{
-    padding: 10px 10px;
-    border-radius: 100%;
+.fi-rr-heart:hover,
+.fi-rr-plus:hover,
+.fi-rr-user:hover,
+.fi-rr-settings:hover,
+.fi-rr-home:hover {
+    background: var(--main-detail-color);
+    transition: .3s ease;
 }
 
-a.active, a:hover{
-    background: #d2d2d2;
-    transition: .3s;
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }

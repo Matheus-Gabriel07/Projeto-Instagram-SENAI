@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .reelsDirection {
+        position: relative;
+        margin: 5px;
+        height: 270px;
+        width: 55px;
+        background: linear-gradient(270deg, #d9484849 50%, transparent);
+        border: 0;
+      }
+
+      .reelsDirection:last-child {
+        background: linear-gradient(90deg, #d9484849 50%, transparent);
+      }
+
+      video::-webkit-media-controls {
+        display: none;
+      }
+
+      .containner_reels {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    #carousel {
+        display: inline-flex;
+        gap: 8px;
+        overflow-x: hidden;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+      }
+
+      .video-container {
+        flex: 0 0 33.33%;
+        margin-right: 10px;
+        display: none;
+      }
+
+      video {
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="containner_reels">
+      <button class="reelsDirection" onclick="previousVideos()"><</button>
+
+      <div id="carousel">
+        <div class="video-container">
+          <video src="/Video/Reels/Reels_1.mp4" controls autoplay muted></video>
+        </div>
+        <div class="video-container">
+          <video src="/Video/Reels/Reels_2.mp4" controls muted></video>
+        </div>
+        <div class="video-container">
+          <video src="/Video/Reels/Reels_3.mp4" controls muted></video>
+        </div>
+        <div class="video-container">
+          <video src="/Video/Reels/Reels_4.mp4" controls muted></video>
+        </div>
+        <div class="video-container">
+          <video src="/Video/Reels/Reels_5.mp4" controls muted></video>
+        </div>
+        <div class="video-container">
+          <video src="/Video/Reels/Reels_6.mp4" controls muted></video>
+        </div>
+        <div class="video-container">
+          <video src="/Video/Reels/Reels_1.mp4" controls muted></video>
+        </div>
+        <div class="video-container">
+          <video src="/Video/Reels/Reels_2.mp4" controls muted></video>
+        </div>
+        <div class="video-container">
+          <video src="/Video/Reels/Reels_3.mp4" controls muted></video>
+        </div>
+      </div>
+
+      <button class="reelsDirection" onclick="nextVideos()">></button>
+    </div>
+
+    <script>
+      var currentVideoIndex = 0;
+      var videos = document.getElementsByClassName("video-container");
+      var carouselContainer = document.querySelector(".carousel-container");
+      var autoplayInterval;
+
+      function showVideos(startIndex) {
+        if (startIndex >= 0 && startIndex < videos.length) {
+          var endIndex = startIndex + 3;
+          if (endIndex > videos.length) {
+            endIndex = videos.length;
+          }
+
+          for (var i = 0; i < videos.length; i++) {
+            videos[i].style.display = "none";
+          }
+
+          for (var j = startIndex; j < endIndex; j++) {
+            videos[j].style.display = "inline-block";
+          }
+
+          currentVideoIndex = startIndex;
+          playCurrentVideo();
+        }
+      }
+
+      function playCurrentVideo() {
+        var videoElement =
+          videos[currentVideoIndex].getElementsByTagName("video")[0];
+        videoElement.play();
+
+        videoElement.addEventListener("ended", function () {
+          videoElement.pause();
+          nextVideo();
+        });
+      }
+
+      function previousVideos() {
+        var previousIndex = currentVideoIndex - 3;
+        if (previousIndex < 0) {
+          previousIndex = videos.length - 3;
+        }
+
+        showVideos(previousIndex);
+      }
+
+      function nextVideos() {
+        var nextIndex = currentVideoIndex + 3;
+        if (nextIndex >= videos.length) {
+          nextIndex = 0;
+        }
+
+        showVideos(nextIndex);
+      }
+
+      function playVideosInOrder() {
+        autoplayInterval = setInterval(function () {
+          nextVideo();
+        }, 18000);
+      }
+
+      function nextVideo() {
+        var nextIndex = currentVideoIndex + 1;
+        if (nextIndex >= videos.length) {
+          nextIndex = 0;
+        }
+
+        showVideos(nextIndex);
+      }
+
+      showVideos(0);
+      playVideosInOrder();
+    </script>
+  </body>
+</html>

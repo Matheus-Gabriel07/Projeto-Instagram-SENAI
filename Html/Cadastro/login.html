@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Instagram</title>
-        <link rel="shortcut icon" href="../../Imagens/Icons/instagram.png" type="image/x-icon">
-        <link rel="stylesheet" href="../../CSS/Others/login.css">
-        <link rel="stylesheet" href="../../CSS/Root/root.css" />
-    </head>
-    <body>
-        <section class="frame">
-            <div class="container">
-                <aside>
-                    <h2>Login</h2>
-                    <a href="./sign.html">Sign</a>
-                    <form action="../Base/home.html" a>
-                        <ul>
-                            <p>Username:</p>
-                            <li><input type="text" name="user" id="user" required></li>
-                            <p>Senha:</p>
-                            <li><input type="password" name="password" id="password" required></li>
-                        </ul>
-                        <input class="entrar" type="submit" name="entrar" id="entrar" value="Entrar">
-                    </form>
-                </aside>
-            </div>
-        </section>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link
+      rel="shortcut icon"
+      href="../../Imagens/Icons/instagram.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../CSS/Others/login.css" />
+    <link rel="stylesheet" href="../../CSS/Root/root.css" />
+  </head>
+  <body>
+    <section class="frame">
+      <div class="container">
+        <aside>
+          <h2>Login</h2>
+          <a href="./sign.html">Sign</a>
+          <form id="loginForm">
+            <label for="loginNome">Nome de Usuário:</label>
+            <input type="text" id="loginNome" required />
+
+            <label for="loginSenha">Senha:</label>
+            <input type="password" id="loginSenha" required />
+            
+            <button type="submit">Entrar</button>
+          </form>
+        </aside>
+      </div>
+    </section>
+    <script src="/JS/verficacaoLogin.js"></script>
+  </body>
 </html>

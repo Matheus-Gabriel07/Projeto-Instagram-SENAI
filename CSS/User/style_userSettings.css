@@ -1,0 +1,161 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.namePage {
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--main-detail-color);
+    text-shadow: 0 0 2px var(--datail-gray-opacity), 0 0 20px var(--datail-gray-opacity);
+}
+
+#di-divsor-na {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 35px;
+    width: 85%;
+    border: 3px solid var(--main-detail-color);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 0 40px 0 40px;
+}
+
+#nameUser,
+#bioUser,
+#linksUser,
+#emailUser,
+#SenhaUser {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--main-detail-color);
+}
+
+#saveIfomations .in-for {
+    padding: 10px 8px;
+    margin: 15px 20px;
+    width: 90%;
+
+    border: 0;
+    border-radius: 100px;
+    background: var(--white-no-white);
+}
+
+#previewImage {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 250px;
+    height: 250px;
+
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px var(--white-no-white), 0 0 25px var(--datail-gray-opacity);
+
+    border: 0;
+    border-radius: 50%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.bu-ne-ph,
+.la-pr-bu {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.la-pr-bu {
+    padding: 15px 10px;
+    width: 200px;
+    color: var(--main-detail-color);
+
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.la-pr-bu:hover, .la-pr-bu:active{
+    color: #000000;
+}
+
+.bu-ne-ph {
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 8px 10px;
+    border: 1px solid var(--main-detail-color);
+    border-radius: 100px;
+
+    background: transparent;
+    color: var(--main-detail-color);
+
+    font-family: 'Montserrat';
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.bu-ne-ph:hover,
+.bu-ne-ph:active {
+    background: var(--main-detail-color);
+    color: #000000;
+}
+
+input[type="submit"] {
+    margin: 15px 40px 0 0;
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 100px;
+    float: right;
+
+    background: var(--main-detail-color);
+    box-shadow: 2px 1px 2px var(--datail-gray-opacity);
+    transition: 0.5s;
+    cursor: pointer;
+
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bu-re-sa:hover,
+.bu-re-vo:hover {
+    color: var(--main-detail-color);
+    background: transparent;
+    border: 1px solid var(--main-detail-color);
+    box-shadow: 0 0 2px var(--white-no-white), 0 0 20px var(--main-detail-color);
+    transform: translateY(-5px);
+}
+
+.bu-re-vo {
+    margin: 15px 0 0 40px;
+    padding: 5px 8px;
+    border: 0;
+    border-radius: 100px;
+    float: left;
+
+    background: var(--main-detail-color);
+    box-shadow: 2px 1px 2px var(--datail-gray-opacity);
+    transition: 0.5s;
+    cursor: pointer;
+
+    font-family: 'Montserrat';
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.fa-eye {
+    margin-left: -60px;
+    cursor: pointer;
+}

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../CSS/style_HomePage.css" />
     <link rel="stylesheet" href="../../CSS/Root/root.css" />
-	  <link rel="stylesheet" href="../../CSS/Root/navbar.css">
+    <link rel="stylesheet" href="../../CSS/Root/navbar.css" />
+    <link rel="stylesheet" href="/CSS/Others/story.css" />
     <link
       rel="shortcut icon"
       href="../../Imagens/Icons/instagram.png"
@@ -18,320 +19,398 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
   </head>
   <body>
-    <nav>
-      <label class="logo">Instagram</label>
-      <ul>
-        <li>
-          <a href="../Base/home.html"
-            ><img src="../../Imagens/Icons/casa.png" alt="home" width="15px"
-          /></a>
-        </li>
-        <li>
+    <div class="container">
+      <header>
+        <label id="logo" class="logo" onclick="redirect">Instagram</label>
+        <div class="containner_nav">
+          <a href="../Base/home.html"><i class="fi fi-rr-home"></i></a>
           <a href="../Page_erro/coming_soon.html"
-            ><img
-              src="../../Imagens/Icons/adicionar.png"
-              alt="criar"
-              width="15px"
-          /></a>
-        </li>
-        <li>
+            ><i class="fi fi-rr-heart"></i
+          ></a>
           <a href="../Page_erro/coming_soon.html"
-            ><img
-              src="../../Imagens/Icons/Curtida.png"
-              alt="curtir"
-              width="15px"
-          /></a>
-        </li>
-        <li>
-          <a href="../users/user.html"
-            ><img
-              src="../../Imagens/Icons/do-utilizador.png"
-              alt="user"
-              width="15px"
-          /></a>
-        </li>
-        <li>
-          <a href="../Confg_abas/Configuração.html"
-            ><img
-              src="../../Imagens/Icons/definicoes.png"
-              alt="settings"
-              width="15px"
-          /></a>
-        </li>
-      </ul>
-    </nav>
-    <aside class="menu">
-      <article class="perfil">
-        <figure>
-          <img src="../../Imagens/Posts/Gustavo.jpg" width="15%" />
-          <h3>Gustavo</h3>
-          <a href="../Cadastro/login.html">Mudar</a>
-        </figure>
-      </article>
-      <article class="sugestoes">
-        <h2>Seguestões</h2>
-        <figure>
-          <img src="../../Imagens/Posts/1.png" width="10%" />
-          <a href="#">username</a>
-        </figure>
-        <figure>
-          <img src="../../Imagens/Posts/1.png" width="10%" />
-          <a href="#">username</a>
-        </figure>
-        <figure>
-          <img src="../../Imagens/Posts/1.png" width="10%" />
-          <a href="#">username</a>
-        </figure>
-        <figure>
-          <img src="../../Imagens/Posts/1.png" width="10%" />
-          <a href="#">username</a>
-        </figure>
-        <figure>
-          <img src="../../Imagens/Posts/1.png" width="10%" />
-          <a href="#">username</a>
-        </figure>
-      </article>
-      <div class="infomations">
-        <h4>&copy Matheus Gabriel Santos Silva</h4>
-        <figure>
-          <a href="https://github.com/Matheus-Gabriel07" target="_blank"
-            ><img src="../../Imagens/Icons/github.png" width="8%"
-          /></a>
-          <a href="#" target="_blank"
-            ><img src="../../Imagens/Icons/more-information.png" width="8%"
-          /></a>
-        </figure>
-        <h5>
-          <a
-            href="https://help.instagram.com/581066165581870/?helpref=uf_share"
-            target="_blank"
-            >Termos de uso</a
-          >
-        </h5>
-      </div>
-      <div class="exit">
-        <a href="../Base/index.html">Sair</a>
-      </div>
-    </aside>
-    <main>
-      <section class="post">
-        <div class="post-top">
-          <img
-            src="../../Imagens/Posts/Gustavo.jpg"
-            alt="user photo"
-            width="7%"
-            height="7%"
-          />
-          <p>
-            <a href="user.html" style="text-decoration: none; color: #000"
-              >Gustavo</a
-            >
-          </p>
+            ><i class="fi fi-rr-plus"></i
+          ></a>
+          <a href="../users/user.html"><i class="fi fi-rr-user"></i></a>
+          <a href="/Html/Tests/Login.html"
+            ><i class="fi fi-rr-settings"></i
+          ></a>
+          <div class="animation start-home"></div>
         </div>
-        <img
-          src="../../Imagens/Posts/Post2.png"
-          alt="Post Image"
-          width="580"
-          height="580"
-        />
-        <figure>
-          <img src="../../Imagens/Icons/Curtida.png" width="20px" />
-          <img src="../../Imagens/Icons/comentário.png" width="20px" />
-          <img src="../../Imagens/Icons/Mensagem.png" width="20px" />
-          <img id="salvar" src="../../Imagens/Icons/salvar.png" width="20px" />
-        </figure>
-        <div class="post-info">
-          <p>
-            <a href="../users/user.html">gus.gus</a>Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Voluptatem aliquam odio magnam
-            doloribus accusantium distinctio libero officia vitae facilis a
-            sequi exercitationem nulla dolorem, nostrum, nesciunt dolorum
-            tempora suscipit quos?
-          </p>
+      </header>
+
+      <nav>
+        <div class="containner_story">
+          <a href="/Html/Page_erro/manutenção.html" class="story">
+            <div class="storyBack">
+              <figure class="story-sty">
+                <img
+                  src="/Imagens/BackAnimation/aiony-haust-3TLl_97HNJo-unsplash.png "
+                  alt="story0"
+                />
+                <p>Catarina</p>
+              </div>
+              </figure>
+          </a>
+          <a href="#" class="story">
+            <div class="storyBack">
+              <figure class="story-sty">
+                <img
+                  src="/Imagens/BackAnimation/gian-cescon-00ByEXKcSkA-unsplash.jpg"
+                  alt="story0"
+                />
+                <p>Vivi.hort</p>
+              </div>
+              </figure>
+          </a>
+          <a href="#" class="story">
+            <div class="storyBack">
+              <figure class="story-sty">
+                <img
+                  src="/Imagens/BackAnimation/ian-dooley-d1UPkiFd04A-unsplash.jpg"
+                  alt="story0"
+                />
+                <p>Drak_rus</p>
+              </div>
+              </figure>
+          </a>
+          <a href="#" class="story">
+            <div class="storyBack">
+              <figure class="story-sty">
+                <img
+                  src="/Imagens/BackAnimation/lachlan-dempsey-6VPEOdpFNAs-unsplash.jpg"
+                  alt="story0"
+                />
+                <p>Felp</p>
+              </div>
+              </figure>
+          </a>
+          <a href="#" class="story">
+            <div class="storyBack">
+              <figure class="story-sty">
+                <img
+                  src="/Imagens/BackAnimation/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg"
+                  alt="story0"
+                />
+                <p>_Amandinha_</p>
+              </div>
+              </figure>
+          </a>
+          <a href="#" class="story">
+            <div class="storyBack">
+              <figure class="story-sty">
+                <img
+                  src="/Imagens/BackAnimation/rayul-_M6gy9oHgII-unsplash.jpg"
+                  alt="story0"
+                />
+                <p>mark.Gab</p>
+              </div>
+              </figure>
+          </a>
+          <a href="#" class="story">
+            <div class="storyBack">
+              <figure class="story-sty">
+                <img
+                  src="/Imagens/BackAnimation/warren-tHiGKAJxaA8-unsplash.jpg"
+                  alt="story0"
+                />
+                <p>Kai_Kai</p>
+              </div>
+              </figure>
+          </a>
+          <div class="animation sty-vist"></div>
         </div>
-      </section>
-      <section class="reels">
-        <figure>
-          <video loop="true" autoplay="autoplay" muted="muted" width="10%">
-            <source src="../../Video/Reels/Reels_1.mp4" type="video/mp4" />
-          </video>
-          <video loop="true" autoplay="autoplay" muted="muted" width="10%">
-            <source src="../../Video/Reels/Reels_2.mp4" type="video/mp4" />
-          </video>
-          <video loop="true" autoplay="autoplay" muted="muted" width="10%">
-            <source src="../../Video/Reels/Reels_3.mp4" type="video/mp4" />
-          </video>
-        </figure>
-      </section>
-      <section class="post">
-        <div class="post-top">
-          <img
-            src="../../Imagens/Posts/Post_1.png"
-            alt="user photo"
-            width="7%"
-            height="7%"
-          />
-          <p>
-            <a href="user.html" style="text-decoration: none; color: #000"
-              >Math</a
-            >
-          </p>
-        </div>
-        <img
-          src="../../Imagens/Posts/Post4.png"
-          alt="Post Image"
-          width="580"
-          height="580"
-        />
-        <div class="post-btn">
+      </nav>
+
+      <aside class="menu">
+        <article class="perfil">
           <figure>
-            <img src="../../Imagens/Icons/Curtida.png" width="20px" />
-            <img src="../../Imagens/Icons/comentário.png" width="20px" />
-            <img src="../../Imagens/Icons/Mensagem.png" width="20px" />
-            <img
-              id="salvar"
-              src="../../Imagens/Icons/salvar.png"
-              width="20px"
-            />
+            <img src="../../Imagens/Posts/Gustavo.jpg" id="perfiole"/>
+            <h3>gus.gus</h3>
+            <a href="../Cadastro/login.html">Mudar</a>
           </figure>
-        </div>
-        <div class="post-info">
-          <p>
-            <a href="../users/user.html">username</a>Lorem ipsum dolor sit amet
-            consectetur adipisicing elit.
-          </p>
-        </div>
-      </section>
-      <section class="post">
-        <div class="post-top">
-          <img
-            src="../../Imagens/Posts/Rafa.jpg"
-            alt="user photo"
-            width="7%"
-            height="7%"
-          />
-          <p>
+        </article>
+
+        <article class="sugestoes">
+          <h2>Sugestões</h2>
+          <figure>
+            <img src="../../Imagens/Posts/1.png"/>
+            <a href="#">mat.gss</a>
+          </figure>
+          <figure>
+            <img src="../../Imagens/Posts/2.png"/>
+            <a href="#">Felipe</a>
+          </figure>
+          <figure>
+            <img src="../../Imagens/Posts/3.png"/>
+            <a href="#">giovana</a>
+          </figure>
+          <figure>
+            <img src="../../Imagens/Posts/4.png"/>
+            <a href="#">lolo.isa</a>
+          </figure>
+          <figure>
+            <img src="../../Imagens/Posts/5.png"/>
+            <a href="#">Lazaras</a>
+          </figure>
+        </article>
+
+        <div class="infomations">
+          <h5>
             <a
-              href="../Html/Contas/rafa.html"
-              style="text-decoration: none; color: #000"
-              >fafismito</a
+              href="https://help.instagram.com/581066165581870/?helpref=uf_share"
+              target="_blank"
+              >Termos de uso</a
             >
-          </p>
+          </h5>
         </div>
-        <img
-          src="../../Imagens/Posts/Post5.png"
-          alt="Post Image"
-          width="580"
-          height="580"
-        />
-        <div class="post-btn">
-          <figure>
-            <img src="../../Imagens/Icons/Curtida.png" width="20px" />
-            <img src="../../Imagens/Icons/comentário.png" width="20px" />
-            <img src="../../Imagens/Icons/Mensagem.png" width="20px" />
-            <img
-              id="salvar"
-              src="../../Imagens/Icons/salvar.png"
-              width="20px"
-            />
-          </figure>
+        
+        <div class="exit">
+          <a href="../Base/index.html">Sair</a>
         </div>
-        <div class="post-info">
-          <p>
-            <a href="../users/user.html">username</a>Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Voluptatem aliquam odio magnam
-            doloribus accusantium distinctio libero officia vitae facilis a
-            sequi exercitationem nulla dolorem.
-          </p>
+      </aside>
+
+      <main>
+        <section class="post">
+          <div class="post-top">
+            <div class="containner-post-top">
+              <img src="../../Imagens/Posts/Gustavo.jpg" alt="user photo" class="post-perfil-photo"/>
+              <a href="user.html" class="post-perfil-name">Gustavo</a>
+              <i class="fi fi-rr-apps"></i>
+            </div>
+          </div>
+
+          <img src="../../Imagens/Posts/Post2.png" alt="Post Image" class="postagem"/>
+
+          <div class="post-opc">
+            <i class="fi fi-sr-heart"></i>
+            <i class="fi fi-sr-comment"></i>
+            <i class="fi fi-sr-paper-plane"></i>
+            <i class="fi fi-sr-bookmark"></i>
+          </div>
+
+          <div class="post-info">
+            <p>
+              <a href="../users/user.html">gus.gus</a>Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </section>
+
+        <div class="containner_reels">
+          <button class="reelsDirection" onclick="previousVideos()"><</button>
+    
+          <div id="carousel">
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_1.mp4" controls autoplay muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_2.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_3.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_4.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_5.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_6.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_1.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_2.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_3.mp4" controls muted></video>
+            </div>
+          </div>
+    
+          <button class="reelsDirection" onclick="nextVideos()">></button>
         </div>
-      </section>
-      <section class="post">
-        <div class="post-top">
-          <img
-            src="../../Imagens/Posts/Post_1.png"
-            alt="user photo"
-            width="7%"
-            height="7%"
-          />
-          <p>
-            <a href="user.html" style="text-decoration: none; color: #000"
-              >Math</a
-            >
-          </p>
+        
+        <section class="post">
+          <div class="post-top">
+            <div class="containner-post-top">
+              <img src="../../Imagens/Posts/Post2.png" alt="user photo" class="post-perfil-photo"/>
+              <a href="user.html" class="post-perfil-name">sass</a>
+              <i class="fi fi-rr-apps"></i>
+            </div>
+          </div>
+
+          <img src="../../Imagens/Posts/5.png" alt="Post Image" class="postagem"/>
+
+          <div class="post-opc">
+            <i class="fi fi-sr-heart"></i>
+            <i class="fi fi-sr-comment"></i>
+            <i class="fi fi-sr-paper-plane"></i>
+            <i class="fi fi-sr-bookmark"></i>
+          </div>
+
+          <div class="post-info">
+            <p>
+              <a href="../users/user.html">gus.gus</a>Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </section>
+
+        <section class="post">
+          <div class="post-top">
+            <div class="containner-post-top">
+              <img src="../../Imagens/Posts/gatito.png" alt="user photo" class="post-perfil-photo"/>
+              <a href="user.html" class="post-perfil-name">Gatito</a>
+              <i class="fi fi-rr-apps"></i>
+            </div>
+          </div>
+
+          <img src="../../Imagens/Posts/Post_3.png" alt="Post Image" class="postagem"/>
+
+          <div class="post-opc">
+            <i class="fi fi-sr-heart"></i>
+            <i class="fi fi-sr-comment"></i>
+            <i class="fi fi-sr-paper-plane"></i>
+            <i class="fi fi-sr-bookmark"></i>
+          </div>
+
+          <div class="post-info">
+            <p>
+              <a href="../users/user.html">gus.gus</a>Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </section>
+
+        <section class="post">
+          <div class="post-top">
+            <div class="containner-post-top">
+              <img src="../../Imagens/Posts/Gustavo.jpg" alt="user photo" class="post-perfil-photo"/>
+              <a href="user.html" class="post-perfil-name">Gustavo</a>
+              <i class="fi fi-rr-apps"></i>
+            </div>
+          </div>
+
+          <img src="../../Imagens/Posts/Post2.png" alt="Post Image" class="postagem"/>
+
+          <div class="post-opc">
+            <i class="fi fi-sr-heart"></i>
+            <i class="fi fi-sr-comment"></i>
+            <i class="fi fi-sr-paper-plane"></i>
+            <i class="fi fi-sr-bookmark"></i>
+          </div>
+
+          <div class="post-info">
+            <p>
+              <a href="../users/user.html">gus.gus</a>Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </section>
+
+        <section class="post">
+          <div class="post-top">
+            <div class="containner-post-top">
+              <img src="../../Imagens/Posts/Gustavo.jpg" alt="user photo" class="post-perfil-photo"/>
+              <a href="user.html" class="post-perfil-name">Gustavo</a>
+              <i class="fi fi-rr-apps"></i>
+            </div>
+          </div>
+
+          <img src="../../Imagens/Posts/Post2.png" alt="Post Image" class="postagem"/>
+
+          <div class="post-opc">
+            <i class="fi fi-sr-heart"></i>
+            <i class="fi fi-sr-comment"></i>
+            <i class="fi fi-sr-paper-plane"></i>
+            <i class="fi fi-sr-bookmark"></i>
+          </div>
+
+          <div class="post-info">
+            <p>
+              <a href="../users/user.html">gus.gus</a>Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </section>
+
+        <div class="containner_reels">
+          <button class="reelsDirection" onclick="previousVideos()"><</button>
+    
+          <div id="carousel">
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_1.mp4" controls autoplay muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_2.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_3.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_4.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_5.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_6.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_1.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_2.mp4" controls muted></video>
+            </div>
+            <div class="video-container">
+              <video src="/Video/Reels/Reels_3.mp4" controls muted></video>
+            </div>
+          </div>
+    
+          <button class="reelsDirection" onclick="nextVideos()">></button>
         </div>
-        <img
-          src="../../Imagens/Posts/2.png"
-          alt="Post Image"
-          width="580"
-          height="580"
-        />
-        <div class="post-btn">
-          <figure>
-            <img src="../../Imagens/Icons/Curtida.png" width="20px" />
-            <img src="../../Imagens/Icons/comentário.png" width="20px" />
-            <img src="../../Imagens/Icons/Mensagem.png" width="20px" />
-            <img
-              id="salvar"
-              src="../../Imagens/Icons/salvar.png"
-              width="20px"
-            />
-          </figure>
-        </div>
-        <div class="post-info">
-          <p>
-            <a href="../users/user.html">username</a>Lorem ipsum dolor sit amet
-            consectetur adipisicing elit.
-          </p>
-        </div>
-      </section>
-      <section class="post">
-        <div class="post-top">
-          <img
-            src="../../Imagens/Posts/Rafa.jpg"
-            alt="user photo"
-            width="7%"
-            height="7%"
-          />
-          <p>
-            <a
-              href="../Html/Contas/rafa.html"
-              style="text-decoration: none; color: #000"
-              >fafismito</a
-            >
-          </p>
-        </div>
-        <img
-          src="../../Imagens/Posts/5.png"
-          alt="Post Image"
-          width="580"
-          height="580"
-        />
-        <div class="post-btn">
-          <figure>
-            <img src="../../Imagens/Icons/Curtida.png" width="20px" />
-            <img src="../../Imagens/Icons/comentário.png" width="20px" />
-            <img src="../../Imagens/Icons/Mensagem.png" width="20px" />
-            <img
-              id="salvar"
-              src="../../Imagens/Icons/salvar.png"
-              width="20px"
-            />
-          </figure>
-        </div>
-        <div class="post-info">
-          <p>
-            <a href="../users/user.html">username</a>Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Voluptatem aliquam odio magnam
-            doloribus accusantium distinctio libero officia vitae facilis a
-            sequi exercitationem nulla dolorem.
-          </p>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <p>&copy 2023 Instagram</p>
-    </footer>
+
+        <section class="post">
+          <div class="post-top">
+            <div class="containner-post-top">
+              <img src="../../Imagens/Posts/Gustavo.jpg" alt="user photo" class="post-perfil-photo"/>
+              <a href="user.html" class="post-perfil-name">Gustavo</a>
+              <i class="fi fi-rr-apps"></i>
+            </div>
+          </div>
+
+          <img src="../../Imagens/Posts/Post2.png" alt="Post Image" class="postagem"/>
+
+          <div class="post-opc">
+            <i class="fi fi-sr-heart"></i>
+            <i class="fi fi-sr-comment"></i>
+            <i class="fi fi-sr-paper-plane"></i>
+            <i class="fi fi-sr-bookmark"></i>
+          </div>
+
+          <div class="post-info">
+            <p>
+              <a href="../users/user.html">gus.gus</a>Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </section>
+        
+      </main>
+
+      <footer>
+        <p>&copy 2023 Instagram</p>
+      </footer>
+    </div>
+    <script src="/JS/reealFuction.js"></script>
   </body>
 </html>

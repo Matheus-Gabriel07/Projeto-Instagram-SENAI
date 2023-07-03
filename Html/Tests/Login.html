@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastro e Login de Usuário</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1,
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 250px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .cadatro,
+    .login {
+      display: none;
+    }
+  </style>
+
+  <body>
+    <h1>Cadastro e Login de Usuário</h1>
+    <button onclick="LoginButton()">Logar</button>
+    <button onclick="CadastroButton()">Cadastrar</button>
+
+    <div class="cadatro">
+      <h2>Cadastro</h2>
+      <form id="cadastroForm">
+        <label for="nome">Nome de Usuário:</label>
+        <input type="text" id="nome" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required /><br /><br />
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" required /><br /><br />
+
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+
+    <div class="login">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="loginNome">Nome de Usuário:</label>
+        <input type="text" id="loginNome" required /><br /><br />
+
+        <label for="loginSenha">Senha:</label>
+        <input type="password" id="loginSenha" required /><br /><br />
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <script src="/JS/userLogin.js"></script>
+    <script src="/JS/verficacaoLogin"></script>
+  </body>
+</html>
