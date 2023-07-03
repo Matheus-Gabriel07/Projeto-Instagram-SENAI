@@ -1,28 +1,23 @@
 <div align="center">
     <h1>Instagram</h1>
-    <p>'Em novas fronteiras'</p>
+    <p>'Após descobrir novas fronteiras, e melhor registar a vida e oque acontece nela!, compartilhando com seus amigos e com todo mundo. Se achar uma foto maravilhosa é melhor colocar ela de perfil para sempre lembrar deste momento.'</p>
 </div>
 
-## Versões
+<br><br>
 
-Acompanhe as atualizações no "releases"
-<br>
-Nova versão em breve
+<div>
+    <h2 align="center"> Veja tudo que chegou na mais recente versão do Instagram!! </h2>
+    <ul>
+        <li>Storys: Hora de compartilhar seus momentos que esta vivendo agora!</li>
+        <li>Reels: Deixe registrado em vídeo aquilo que você viu, ou veja o que as pessoas produzem!</li>
+        <li>Perfil - Hora da personalização: Edite o nome seu nome, sua bio, adicione links,
+    mude seu e-mail, sua senha e até mude sua foto de perfil.</li>
+        <li>Perfil - Mais de perto: Abra as fotos em tela cheia e veja o que as pessoas estão falando das fotos.</li>
+        <li>Siga tudo aquilo que te interessa agora!</li>
+    </ul>
+</div>
 
-#### V5.0 - Fronteiras
-"Em novas fronteiras ^^ "
-
-- Nova UI da tela inicial:
-    - Adição de sidebar;
-    - Novo modelo de post;
-- Nova UI dos 'settings'
-- Adição das telas:
-    - Configurações:
-    - Privacidade;
-    - Segurança;
-    - Notificações
-    - Em Manutenção;
-    - Em Breve;
+ >  Acompanhe as atualizações no "releases"
 
 ### Screeshots
 
@@ -31,10 +26,6 @@ Nova versão em breve
 ![Inst_log](https://user-images.githubusercontent.com/125685533/230795765-479d8886-4e40-4df8-b15c-ecefd5d6777d.PNG)
 ![Inst_user](https://user-images.githubusercontent.com/125685533/230795768-91a3d741-aa1e-42a2-8971-adea844b2d34.PNG)
 ![Inst_404](https://user-images.githubusercontent.com/125685533/230795774-0eb02474-9a45-4f5c-9f40-b1cc59f73198.PNG)
-
-## Autores
-
-- [@Matheus-Gabriel07](https://www.github.com/matheus-gabriel07)
 
 ## Documentação de cores
 
