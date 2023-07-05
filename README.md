@@ -3,8 +3,11 @@
     <p>'Após descobrir novas fronteiras, e melhor registar a vida e oque acontece nela!, compartilhando com seus amigos e com todo mundo. Se achar uma foto maravilhosa é melhor colocar ela de perfil para sempre lembrar deste momento.'</p>
 </div>
 
-<br><br>
+<br>
+<img src="https://github.com/Matheus-Gabriel07/Projeto-Instagram-SENAI/assets/125685533/6122dc91-31f3-45ba-934d-45c1931e773d" width="100%">
 
+<br>
+<br>
 <div>
     <h2 align="center"> Veja tudo que chegou na mais recente versão do Instagram!! </h2>
     <ul>
@@ -19,20 +22,12 @@
 
  >  Acompanhe as atualizações no "releases"
 
-### Screeshots
+<br>
+<br>
 
-![Inst_guia](https://user-images.githubusercontent.com/125685533/230795762-2fc70fe1-7db0-4535-8671-528a0a5f467d.PNG)
-![Inst_index](https://user-images.githubusercontent.com/125685533/230795763-714dbb84-3076-4fe4-a3ca-f5d43c5a1d9f.PNG)
-![Inst_log](https://user-images.githubusercontent.com/125685533/230795765-479d8886-4e40-4df8-b15c-ecefd5d6777d.PNG)
-![Inst_user](https://user-images.githubusercontent.com/125685533/230795768-91a3d741-aa1e-42a2-8971-adea844b2d34.PNG)
-![Inst_404](https://user-images.githubusercontent.com/125685533/230795774-0eb02474-9a45-4f5c-9f40-b1cc59f73198.PNG)
+<h2 align="center"> Screenshots </h2>
 
-## Documentação de cores
-
-| Cor               | Hexadecimal                                                |
-| ----------------- | ---------------------------------------------------------------- |
-| Cor de Fundo       | ![#d9d9d9](https://via.placeholder.com/10/d9d9d9?text=+) #d9d9d9 |
-| Cor de Detalhe       | ![#d94848](https://via.placeholder.com/10/d94848?text=+) #d94848 |
-| Cor de Detalhe       | ![#d12929](https://via.placeholder.com/10/d12929?text=+) #d12929 |
-| Cor Título - Detalhe gradiente       | ![#fa00ff](https://via.placeholder.com/10/fa00ff?text=+) #fa00ff |
-| Cor Título - Detalhe gradiente      | ![#ff8a00](https://via.placeholder.com/10/ff8a00?text=+) #ff8a00 |
+![image](https://github.com/Matheus-Gabriel07/Projeto-Instagram-SENAI/assets/125685533/7290226c-a8d8-405b-8ed4-75035868b43c)
+![image](https://github.com/Matheus-Gabriel07/Projeto-Instagram-SENAI/assets/125685533/bc8fc31c-468e-4cbb-a859-c5216cf56a03)
+![image](https://github.com/Matheus-Gabriel07/Projeto-Instagram-SENAI/assets/125685533/5ab41cf2-9c99-4af3-9d84-414001fae9e2)
+![image](https://github.com/Matheus-Gabriel07/Projeto-Instagram-SENAI/assets/125685533/8a7f0b26-9085-48b6-baaf-72da152e111e)
