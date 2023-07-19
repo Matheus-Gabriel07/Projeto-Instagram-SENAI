@@ -3,72 +3,141 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  text-align: center;
 }
 
-h1 {
-  margin: 10px 20px;
+.containner_contents {
+  padding: 15px 25px;
+  border: 0;
+  border-radius: 10px;
+  background: #f6f6f6;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
+  animation:  fadeIn 1s linear;
+}
 
+.containner_contents h1 {
+  margin: 15px auto;
   font-family: 'Montserrat';
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: 600;
-  line-height: 42px;
   letter-spacing: 1px;
+  text-align: center;
   text-transform: uppercase;
-
-  animation: fadeIn 0.5s ease;
 }
 
 .btn_child {
-  margin: 10px 15px;
-  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.container_btn {
+  margin: 20px;
+}
+
+.buttonsEntrace {
+  margin: 0 10px;
+  padding: 10px 15px;
+  border: 1px solid;
+  border-radius: 100px;
   font-family: 'Montserrat';
-  font-size: 24px;
+  font-size: 1.25em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 60px;
+  text-align: center;
+}
+
+#Entrar{
+  border-color: var(--main-detail-color);
+  color: var(--main-detail-color);
+  transition: 750ms;
+}
+
+#Entrar:hover{
+  box-shadow: inset -10.5em 0 0 0 var(--main-detail-color), inset 10.5em 0 0 0 var(--main-detail-color);
+  color: #fff;
+  transition: 800ms;
+}
+
+#Cadastrar{
+  border: 0;
+  color: #fff;
+  background: var(--detail-blue);
+  transition: 750ms;
+}
+
+#Cadastrar:hover{
+  box-shadow: inset 10.5em 0 0 0 #f6f6f6, inset 10.5em 0 0 0 var(--detail-blue);
+  color: var(--detail-blue);
+  transition: 800ms;
+}
+
+/* Footer */
+
+footer {
+  margin: 10px 0 0 0;
+  padding: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #f6f6f6;
+  box-shadow: -2px 0 20px rgba(114, 114, 114, 0.25);
+}
+
+.container_footer {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  font-family: 'Montserrat';
+  font-size: 14px;
   font-weight: 600;
-  line-height: 34px;
   letter-spacing: 1px;
   text-transform: uppercase;
-
 }
 
-.esq,
-.dir {
-  margin: 10px 15px;
-  padding: 5px 10px;
-  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
+.container_contacts {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
 }
 
-.esq {
-  border: 1px solid var(--detail-blue);
-  border-radius: 100px;
+a .fi-brands-github {
+  margin: 10px;
+  font-size: 1.5em;
+  color: #000;
+}
+
+.fi-brands-github:hover {
   color: var(--detail-blue);
-  transform: translateY(0);
-  transition: 0.5s;
 }
 
-.esq:hover {
-  transform: translateY(-20px);
-  transition: 0.5s;
-  background-color: var(--detail-blue);
-  color: #ffffff;
+.container_contacts img {
+  max-width: 40px;
 }
 
-.dir {
-  border: 0;
-  border-radius: 100px;
-  background: var(--detail-pink);
-  color: #ffffff;
-}
+/* Animation */
 
-@keyframes fadeIn{
-  0%{
+@keyframes fadeIn {
+  0% {
     transform: translateY(-20px);
     opacity: 0;
   }
-  100%{
+
+  100% {
     transform: translate(0);
     opacity: 100;
+  }
+}
+
+/* Media screen*/
+
+@media screen and (max-width:650px) {
+  .btn_child{
+    text-align: center;
+    flex-direction: column;
   }
 }
